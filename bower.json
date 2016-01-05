@@ -1,0 +1,19 @@
+{
+  "name": "sghome",
+  "description": "sghome.vn",
+  "main": "index.js",
+  "authors": [
+    "Phat"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "http://sghome.vn",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
