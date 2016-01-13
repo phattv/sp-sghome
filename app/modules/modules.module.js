@@ -3,6 +3,9 @@
 
   angular
     .module('sghome.modules', [
-      'ui.router'
+      'ui.router',
+
+      'sghome.modules.layout',
+      'sghome.modules.dashboard'
     ])
 })();

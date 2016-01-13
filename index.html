@@ -9,7 +9,8 @@
     <!-- inject:css -->
     <!-- built css files will go here... -->
     <!-- endinject -->
-<body>
+<body ng-app="sghome">
+<ui-view></ui-view>
 <!-- bower:js -->
 <script src="/bower_components/angular/angular.js"></script>
 <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
@@ -19,6 +20,10 @@
 <!-- inject:js -->
 <script src="/app/app.module.js"></script>
 <script src="/app/modules/modules.module.js"></script>
+<script src="/app/modules/dashboard/dashboard.module.js"></script>
+<script src="/app/modules/layout/layout.module.js"></script>
+<script src="/app/modules/dashboard/controllers/dashboardController.js"></script>
+<script src="/app/modules/layout/controllers/mainController.js"></script>
 <!-- endinject -->
 </body>
 </html>
