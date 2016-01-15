@@ -1,5 +1,7 @@
-<div ng-include="'/app/modules/layout/views/header.html'" class="sghome-header"></div>
-<div class="sghome-content">
-  <ui-view></ui-view>
+<div class="wrapper">
+  <header ng-include="'/app/modules/layout/views/header.html'"></header>
+  <div class="sghome-content">
+    <ui-view></ui-view>
+  </div>
 </div>
-<div ng-include="'/app/modules/layout/views/footer.html'" class="sghome-footer"></div>
+<footer ng-include="'/app/modules/layout/views/footer.html'"></footer>
