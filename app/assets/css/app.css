@@ -4,7 +4,11 @@
 }
 .wrapper .sghome-header {
   height: 50px;
-  background: red;
+}
+.wrapper .sghome-header a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
 }
 .wrapper .sghome-content {
   background: black;
@@ -34,47 +38,22 @@
   src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHToX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
-@media screen and (min-width: 500px) {
-  html {
-    font-size: 14px;
-  }
-}
-@media screen and (min-width: 570px) {
-  html {
-    font-size: 15px;
-  }
-}
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 480px) {
   html {
     font-size: 16px;
   }
 }
-@media screen and (min-width: 680px) {
-  html {
-    font-size: 17px;
-  }
-}
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   html {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 800px) {
-  html {
-    font-size: 19px;
-  }
-}
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 992px) {
   html {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 920px) {
-  html {
-    font-size: 21px;
-  }
-}
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   html {
     font-size: 22px;
   }
@@ -96,4 +75,7 @@ h2 {
 }
 h1 {
   font-size: 2rem;
+}
+a {
+  cursor: pointer;
 }
