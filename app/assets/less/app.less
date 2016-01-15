@@ -2,10 +2,13 @@
 @import 'layout';
 @import 'fonts';
 @import 'media';
+@import 'utils';
+@import 'dashboard';
 
 body {
-  font-size: 16px; // 1 rem = 16px
   font-family: 'Roboto', sans-serif;
+  font-size: 16px; // 1 rem = 16px
+  font-weight: 300;
   padding: 0 !important;
   margin: 0 !important;
   line-height: 1.618; // golden ratio
@@ -13,18 +16,31 @@ body {
   background-color: @htmlColor;
 }
 
-p {
-  font-size: 1rem;
+small {
+  font-size: 0.75rem !important;;
+}
+
+p, span, button, input {
+  font-size: 1rem !important;
+}
+
+h3 {
+  font-size: 1.25rem !important;;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2rem !important;;
 }
 
 a {
   cursor: pointer;
+  text-decoration: none !important;
+}
+
+.btn, .form-control, .input-group-addon {
+  border-radius: 0 !important;
 }

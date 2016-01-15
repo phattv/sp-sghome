@@ -1,0 +1,72 @@
+// mixin sequence: clockwise: top - right - bottom - left
+
+// Border
+.border(@thickness: 1px, @color: @black) {
+  border: @thickness solid @color !important;;
+}
+
+.border-top(@thickness: 1px, @color: @black) {
+  border-top: @thickness solid @color !important;;
+}
+
+.border-right(@thickness: 1px, @color: @black) {
+  border-right: @thickness solid @color !important;;
+}
+
+.border-bottom(@thickness: 1px, @color: @black) {
+  border-bottom: @thickness solid @color !important;;
+}
+
+.border-left(@thickness: 1px, @color: @black) {
+  border-left: @thickness solid @color !important;;
+}
+
+// Padding
+.padding(@spacing: 10px) {
+  padding: @spacing !important;
+}
+
+.padding(@topbottom: 10px, @leftright: 10px) {
+  padding: @topbottom @leftright !important;;
+}
+
+.padding-top(@spacing: 10px) {
+  padding-top: @spacing !important;;
+}
+
+.padding-right(@spacing: 10px) {
+  padding-right: @spacing !important;;
+}
+
+.padding-bottom(@spacing: 10px) {
+  padding-bottom: @spacing !important;;
+}
+
+.padding-left(@spacing: 10px) {
+  padding-left: @spacing !important;;
+}
+
+// Margins
+.margin(@spacing: 10px) {
+  margin: @spacing !important;;
+}
+
+.margin(@topbottom: 10px, @leftright: 10px) {
+  margin: @topbottom @leftright !important;;
+}
+
+.margin-top(@spacing: 10px) {
+  margin-top: @spacing !important;;
+}
+
+.margin-right(@spacing: 10px) {
+  margin-right: @spacing !important;;
+}
+
+.margin-bottom(@spacing: 10px) {
+  margin-bottom: @spacing !important;;
+}
+
+.margin-left(@spacing: 10px) {
+  margin-left: @spacing !important;;
+}

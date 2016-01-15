@@ -1,6 +1,78 @@
 .dashboard {
-  .search-box {
+  .dashboard-header {
+    background-image: url('/app/assets/img/search-box-background-image.jpg');
+    height: 700px;
 
+    .content {
+      color: @white;
+      text-align: center;
+      display: block;
+
+      h1 {
+        margin-top: 150px;
+        .margin-bottom();
+        font-weight: 300;
+        letter-spacing: 0.2rem;
+      }
+
+      h3 {
+        font-weight: 300;
+        .margin-bottom(50px);
+      }
+
+      .search-box {
+        max-width: 700px;
+        margin: auto;
+        position: relative;
+
+        .home-types {
+          padding: 0 !important;
+
+          .col-xs-4 {
+            padding: 0 !important;
+
+            &:nth-child(2) {
+              .padding(0, 5px);
+            }
+          }
+
+          .type {
+            margin: 0;
+            text-align: center;
+            display: block;
+            position: relative;
+            color: @white;
+            padding: 10px 0;
+            background-color: fade(@black, 70%);
+            cursor: pointer;
+
+            &:hover {
+              .border-bottom(4px, @blue);
+            }
+          }
+        }
+
+        .search-input {
+          input {
+            height: 55px;
+          }
+
+          .input-group-addon {
+            background-color: @red;
+            .border(0);
+
+            .btn {
+              background-color: transparent;
+              .border(0);
+            }
+          }
+        }
+
+        .autocomplete {
+
+        }
+      }
+    }
   }
 
   .for-rent {
