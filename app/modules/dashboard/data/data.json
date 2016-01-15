@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1,
+    "type": "rent",
+    "images": [
+      "http://sghome.vn/wp-content/uploads/2016/01/Untitled3.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/Untitled11.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/Untitled21.png"
+    ],
+    "title": "House for rent 105m2, car parking, Thao Dien, Dis 2",
+    "description": "House for sale near Tropic Garden, Thao Dien Ward, District 2, Ho Chi Minh City. Secure and quiet area, car can access to the house easily. Terrace has full furnished to have BBQ party. The land area is 105 sqm, (7.4 m2 x 14m2), 1 ground floor, 3 upper floors, terrace, 3 bedrooms, 4 bathrooms, 1 working room/librabry, 1 entertainment room and garden. Furnish: all air-conditioners in every rooms, 1 working table, salon in entertainment room, 1 leather salon Chi Lai",
+    "price": 1500,
+    "unit": "month",
+    "area": null,
+    "notes": null,
+    "author": {
+      "name": "Thu Vo",
+      "alias": "Lauren Vo",
+      "mobile": "0981 851 631",
+      "email": "thu.vo@sghome.vn",
+      "viber": null
+    }
+  },
+  {
+    "id": 2,
+    "type": "rent",
+    "images": [
+      "http://sghome.vn/wp-content/uploads/2016/01/12565608_1203091036371956_4128617986542256376_n.jpg"
+    ],
+    "title": "Villa swimming pool, garden on Nguyen Van Huong St, Thao Dien",
+    "description": "Villa for rent Thao Dien, District 2, Ho Chi Minh City. Near supermarket, international schools, structure of 1 ground floor and 2 upper floors, terrace, 3 bedrooms, swimming pool, garden, fully furnished, internet, cable TV.",
+    "price": 4500,
+    "unit": "month",
+    "area": {
+      "width": 10,
+      "length": 23,
+      "text": null
+    },
+    "note": null,
+    "author": {
+      "name": "Thu Vo",
+      "alias": "Lauren Vo",
+      "mobile": "0981 851 631",
+      "email": "thu.vo@sghome.vn",
+      "viber": null
+    }
+  },
+  {
+    "id": 3,
+    "type": "rent",
+    "images": [
+      "http://sghome.vn/wp-content/uploads/2016/01/12468177_1016818858379700_1025918768_n.jpg",
+      "http://sghome.vn/wp-content/uploads/2016/01/12467984_1016819021713017_1595363447_n.jpg",
+      "http://sghome.vn/wp-content/uploads/2016/01/12476236_1016818928379693_1970730369_n.jpg",
+      "http://sghome.vn/wp-content/uploads/2016/01/12468230_1016818968379689_1304176177_n.jpg",
+      "http://sghome.vn/wp-content/uploads/2016/01/12463996_1016818981713021_815823625_n.jpg",
+      "http://sghome.vn/wp-content/uploads/2016/01/12476014_1016819061713013_788460645_n.jpg",
+      "http://sghome.vn/wp-content/uploads/2016/01/12506914_1016819001713019_121086581_n.jpg"
+    ],
+    "title": "Xi Riverview Palace Apartment for rent. Area 145m2, rental: 2,000USD/month",
+    "description": "Xi Riverview Palace Apartment for rent in Thao Dien, Dist 2, high floor, river view. Address: 190 Nguyen Van Huong St., Thao Dien Ward, Dist 2, HCMC.",
+    "price": 2000,
+    "unit": "month",
+    "area": {
+      "width": null,
+      "length": null,
+      "text": "145m2"
+    },
+    "note": "Level: 7|Bedroom: 3|Bathroom: 3|Balcony: 1|Facility: swimming pool, tennis court, gym club, sauna, yoga, kindergarten, meeting room, mini mart, restaurant, reception desk and security 24/7",
+    "author": {
+      "name": "Anny",
+      "alias": "Uyên Huỳnh",
+      "role": "Sales Manager",
+      "mobile": "0909.28.29.22",
+      "email": "saigonhome01@gmail.com",
+      "viber": "+84 909 959 886"
+    }
+  },
+  {
+    "id": 4,
+    "type": "rent",
+    "images": [
+      "http://sghome.vn/wp-content/uploads/2016/01/11.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/21.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/3.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/51.png"
+    ],
+    "title": "House for rent closed to ISHCMC, Thao Dien Ward, District 2, HCMC",
+    "description": "House for rent closed to ISHCMC, Thao Dien Ward, District 2, Ho Chi Minh City. Near supermarket, restaurants, shopping malls, 1 ground floor and 1 upper floor, parking car, 4 bedrooms, fully furnished, internet, cable TV. The rental is 1,500USD/month.",
+    "price": 1500,
+    "unit": "month",
+    "area": {
+      "width": null,
+      "length": null,
+      "text": null
+    },
+    "note": null,
+    "author": {
+      "name": "Jade Nguyen",
+      "alias": null,
+      "mobile": "+84 975 421 467",
+      "email": "jade@sghome.vn",
+      "viber": null
+    }
+  },
+  {
+    "id": 5,
+    "type": "rent",
+    "images": [
+      "http://sghome.vn/wp-content/uploads/2016/01/1.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/2.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/7.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/8.png"
+    ],
+    "title": "House for rent with river view, Thao Dien, District 2, Ho Chi Minh City",
+    "description": "House for rent with river view, Thao Dien, District 2, Ho Chi Minh City. Near supermarket, international schools, structure of 1 ground floor and 2 upper floors, terrace, 4 bedrooms, fully furnished, internet, cable TV. The rental is 2,000USD/month.",
+    "price": 2000,
+    "unit": "month",
+    "area": {
+      "width": null,
+      "length": null,
+      "text": null
+    },
+    "note": null,
+    "author": {
+      "name": "Jade Nguyen",
+      "alias": null,
+      "mobile": "+84 975 421 467",
+      "email": "jade@sghome.vn",
+      "viber": null
+    }
+  },
+  {
+    "id": 6,
+    "type": "rent",
+    "images": [
+      "http://sghome.vn/wp-content/uploads/2016/01/1.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/2.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/7.png",
+      "http://sghome.vn/wp-content/uploads/2016/01/8.png"
+    ],
+    "title": "Tropic Garden apartment for rent, 3 bedrooms, fully furnished",
+    "description": "Tropic Garden apartment for rent, 3 bedrooms. Unit 2 bedrooms, new decoration, high floor, river view, fully furnished, new 100%. Good location, fully facilities: supermarket, swimming pool, gym, entertainment area (billiard pool, ping pong, chess…), children playground, BBQ area, spa, laundry services, coffee shop…",
+    "price": 1400,
+    "unit": "month",
+    "area": {
+      "width": null,
+      "length": null,
+      "text": null
+    },
+    "note": null,
+    "author": {
+      "name": "Anny",
+      "alias": "Uyên Huỳnh",
+      "role": "Sales Manager",
+      "mobile": "0909.28.29.22",
+      "email": "saigonhome01@gmail.com",
+      "viber": "+84 909 959 886"
+    }
+  }
+]

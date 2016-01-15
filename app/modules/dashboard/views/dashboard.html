@@ -12,20 +12,37 @@
           <div class="col-xs-4"><a class="type">Serviced Apartments</a></div>
         </div>
         <div class="row search-input">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Address, Ward, District, Area..." autofocus>
-            <span class="input-group-addon">
-              <button class="btn btn-primary">
-                <i class="fa fa-search"><span class="hidden-xs">Search</span></i>
-              </button>
-            </span>
+          <div class="col-xs-12">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Address, Ward, District, Area..." autofocus>
+              <span class="input-group-addon">
+                <button class="btn btn-primary">
+                  <i class="fa fa-search"><span class="hidden-xs">Search</span></i>
+                </button>
+              </span>
+            </div>
           </div>
         </div>
-        <!--div.autocomplete-->
+        <!--TODO: div.autocomplete-->
       </div>
     </div>
   </div>
-  <div class="for-rent"></div>
-  <div class="for-sale"></div>
-  <div class="serviced-apartments"></div>
+  <div class="container-fluid">
+    <div class="for-rent">
+      <h2>For Rent</h2>
+
+      <div class="row">
+        <div class="post col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="post in posts.forRent">
+          <div class="background">
+            <img ng-src="{{post.images[0]}}">
+          </div>
+          <div class="content">
+            <small class-title>{{post.title}}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="for-sale"></div>
+    <div class="serviced-apartments"></div>
+  </div>
 </div>
