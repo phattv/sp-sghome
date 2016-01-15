@@ -9,6 +9,9 @@
   text-transform: uppercase;
   font-size: 14px;
 }
+.wrapper .sghome-header a:hover {
+  border-bottom: 4px solid #d92228 !important;
+}
 .sghome-footer {
   margin-top: 10px;
   height: 50px;
@@ -17,6 +20,9 @@
 }
 .sghome-footer a {
   color: #fff;
+}
+.sghome-footer a:hover {
+  border-bottom: 4px solid #d92228 !important;
 }
 @font-face {
   font-family: 'Roboto';
@@ -106,14 +112,17 @@
   border-bottom: 4px solid #429af3 !important;
   background-color: rgba(51, 51, 51, 0.9);
 }
-.dashboard .dashboard-header .content .search-box .search-input input {
+.dashboard .dashboard-header .content .search-box .search-input .col-xs-12 {
+  padding: 0 !important;
+}
+.dashboard .dashboard-header .content .search-box .search-input .col-xs-12 input {
   height: 55px;
 }
-.dashboard .dashboard-header .content .search-box .search-input .input-group-addon {
+.dashboard .dashboard-header .content .search-box .search-input .col-xs-12 .input-group-addon {
   background-color: #d92228;
   border: 0 solid #333 !important;
 }
-.dashboard .dashboard-header .content .search-box .search-input .input-group-addon .btn {
+.dashboard .dashboard-header .content .search-box .search-input .col-xs-12 .input-group-addon .btn {
   background-color: transparent;
   border: 0 solid #333 !important;
 }
