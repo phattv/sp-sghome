@@ -30,8 +30,14 @@
   a {
     color: @white;
 
-    &:hover {
+    &:hover, .active {
       .border-bottom(4px, @red);
     }
+  }
+
+  small {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
   }
 }

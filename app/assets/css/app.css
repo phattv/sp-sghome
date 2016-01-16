@@ -21,8 +21,14 @@
 .sghome-footer a {
   color: #fff;
 }
-.sghome-footer a:hover {
+.sghome-footer a:hover,
+.sghome-footer a .active {
   border-bottom: 4px solid #d92228 !important;
+}
+.sghome-footer small {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
 }
 @font-face {
   font-family: 'Roboto';
@@ -162,6 +168,9 @@
 .for-rent-detail .content h1 {
   font-weight: 700;
   font-size: 2.5rem !important;
+}
+.for-rent-detail .content .content-area .image-container {
+  padding-bottom: 10px !important;
 }
 .for-rent-detail .content .content-area .entry-footer .author-area {
   position: relative;

@@ -9,8 +9,6 @@
         <section class="row">
           <div class="col-xs-12">
             <div class="image-container">
-              <!--<img ng-src="{{vm.post.images[0]}}">-->
-
               <uib-carousel interval="3000" no-wrap="false">
                 <uib-slide ng-repeat="image in vm.post.images">
                   <img ng-src="{{image}}" style="margin:auto;">
@@ -19,7 +17,6 @@
                   </div>
                 </uib-slide>
               </uib-carousel>
-
             </div>
             <p>{{vm.post.description}}</p>
             <p ng-show-="vm.post.price"><label>Price:&nbsp;</label>${{vm.post.price}}/ {{vm.post.unit}}</p>
