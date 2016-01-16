@@ -1,21 +1,29 @@
-(function() {
+(function () {
   'use strict';
 
   angular
     .module('sghome.modules.dashboard')
-    .controller('dashboardController', ['$scope', 'postsService',
-      function($scope, postsService) {
-        $scope.posts = [];
+    .controller('dashboardController', ['postsService', '$state',
+      function (postsService, $state) {
+        var vm = this;
+        vm.posts = [];
+        vm.viewPostDetail = viewPostDetail;
 
         function init() {
           postsService.getPostsForRent()
-            .success(function(response) {
+            .success(function (response) {
               console.log(response);
-              $scope.posts.forRent = response;
+              vm.posts.forRent = response;
             })
-            .error(function(error) {
+            .error(function (error) {
               console.log(error);
             })
+        }
+
+        function viewPostDetail(post) {
+          $state.go('main.forRent', {
+            id: post.id
+          })
         }
 
         init();

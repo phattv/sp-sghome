@@ -9,7 +9,8 @@
           .state('main.dashboard', {
             url: '/',
             templateUrl: '/app/modules/dashboard/views/dashboard.html',
-            controller: 'dashboardController'
+            controller: 'dashboardController',
+            controllerAs: 'vm'
           })
       }])
 })();

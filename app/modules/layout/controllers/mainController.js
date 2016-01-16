@@ -3,8 +3,14 @@
 
   angular
     .module('sghome.modules.layout')
-    .controller('mainController', ['$scope',
-      function($scope) {
-        $scope.title = 'dashboard';
+    .controller('mainController', ['$anchorScroll', '$location',
+      function($anchorScroll, $location) {
+        var vm = this;
+        vm.gotoSection = gotoSection;
+
+        function gotoSection(section) {
+          $location.hash(section);
+          $anchorScroll()
+        }
       }])
 })();

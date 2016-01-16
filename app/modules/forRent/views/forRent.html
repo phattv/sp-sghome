@@ -1,0 +1,39 @@
+<div class="for-rent-detail container-fluid">
+  <div ncy-breadcrumb></div>
+  <div class="content row">
+    <div class="col-xs-12">
+      <h1>{{vm.post.title}}</h1>
+    </div>
+    <div class="content-area col-sm-12 col-md-8 col-lg-9">
+      <article>
+        <section class="row">
+          <div class="col-xs-12">
+            <div class="image-container">
+              <img ng-src="{{vm.post.images[0]}}">
+            </div>
+            <p>{{vm.post.description}}</p>
+          </div>
+        </section>
+        <footer class="entry-footer col-lg-9 col-lg-offset-3">
+          <div class="author-area row">
+            <div class="profile-picture col-xs-4 col-md-2">
+              <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANHAAAAJDM3MTkzNTlhLTFlODctNDI0OS04ZjRhLTIyMmY0OGI2NDIzNA.jpg">
+            </div>
+            <div class="content-area col-xs-8 col-md-10">
+              <p>{{vm.post.author.name}} ({{vm.post.author.alias}})</p>
+              <p>Mobile: {{vm.post.author.mobile}}</p>
+              <p>Email: {{vm.post.author.email}}</p>
+              <p class="text-right"><a><small>View {{vm.post.author.name}}'s posts >></small></a></p>
+            </div>
+          </div>
+        </footer>
+      </article>
+    </div>
+    <div class="widget-area col-sm-12 col-md-4 col-lg-3">
+      <h2>Social sharing</h2>
+      <h2>Ads</h2>
+      <h2>Related posts</h2>
+      <h2>External links</h2>
+    </div>
+  </div>
+</div>

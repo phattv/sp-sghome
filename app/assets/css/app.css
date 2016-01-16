@@ -159,6 +159,31 @@
 .dashboard .for-rent .row .post .content span {
   display: block;
 }
+.for-rent-detail .content h1 {
+  font-weight: 700;
+  font-size: 2.5rem !important;
+}
+.for-rent-detail .content .content-area .entry-footer .author-area {
+  position: relative;
+  border-top: 1px solid #333 !important;
+  border-bottom: 1px solid #333 !important;
+  margin: 10px 0 !important;
+}
+.for-rent-detail .content .content-area .entry-footer .author-area .profile-picture {
+  position: absolute;
+  top: 50%;
+  height: 80px;
+  margin-top: -40px;
+}
+.for-rent-detail .content .content-area .entry-footer .author-area .profile-picture img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.for-rent-detail .content .content-area .entry-footer .author-area .content-area {
+  margin: 10px 0 !important;
+  float: right;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;

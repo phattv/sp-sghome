@@ -1,10 +1,10 @@
 <div class="sghome-header">
   <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
-      <li class="active"><a>Logo</a></li>
-      <li><a>For Rent</a></li>
-      <li><a>For Sale</a></li>
-      <li><a>Serviced Apartments</a></li>
+      <li class="active"><a ui-sref="main.dashboard">Logo</a></li>
+      <li><a ng-click="vm.gotoSection('for-rent')">For Rent</a></li>
+      <li><a ng-click="vm.gotoSection('for-sale')">For Sale</a></li>
+      <li><a ng-click="vm.gotoSection('serviced-apartments')">Serviced Apartments</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a>Contact</a></li>

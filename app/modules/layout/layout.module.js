@@ -9,7 +9,11 @@
           .state('main', {
             abstract: true,
             templateUrl: '/app/modules/layout/views/main.html',
-            controller: 'mainController'
+            controller: 'mainController',
+            controllerAs: 'vm',
+            ncyBreadcrumb: {
+              label: 'Home'
+            }
           })
       }])
 })();
