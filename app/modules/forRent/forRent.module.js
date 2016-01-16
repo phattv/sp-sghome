@@ -6,7 +6,7 @@
   'use strict';
 
   angular
-    .module('sghome.modules.forRent', [])
+    .module('sghome.modules.forRent', ['ui.bootstrap'])
     .config(['$stateProvider',
       function($stateProvider) {
         $stateProvider

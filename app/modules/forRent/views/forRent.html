@@ -9,9 +9,21 @@
         <section class="row">
           <div class="col-xs-12">
             <div class="image-container">
-              <img ng-src="{{vm.post.images[0]}}">
+              <!--<img ng-src="{{vm.post.images[0]}}">-->
+
+              <uib-carousel interval="3000" no-wrap="false">
+                <uib-slide ng-repeat="image in vm.post.images">
+                  <img ng-src="{{image}}" style="margin:auto;">
+                  <div class="carousel-caption">
+                    <h4>{{vm.post.title}}</h4>
+                  </div>
+                </uib-slide>
+              </uib-carousel>
+
             </div>
             <p>{{vm.post.description}}</p>
+            <p ng-show-="vm.post.price"><label>Price:&nbsp;</label>${{vm.post.price}}/ {{vm.post.unit}}</p>
+            <p ng-show="vm.post.notes"><label>Other information:&nbsp;</label>{{vm.post.notes}}</p>
           </div>
         </section>
         <footer class="entry-footer col-lg-9 col-lg-offset-3">
@@ -20,7 +32,7 @@
               <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANHAAAAJDM3MTkzNTlhLTFlODctNDI0OS04ZjRhLTIyMmY0OGI2NDIzNA.jpg">
             </div>
             <div class="content-area col-xs-8 col-md-10">
-              <p>{{vm.post.author.name}} ({{vm.post.author.alias}})</p>
+              <p>{{vm.post.author.name}}<span ng-show="vm.post.author.alias">&nbsp;({{vm.post.author.alias}})</span></p>
               <p>Mobile: {{vm.post.author.mobile}}</p>
               <p>Email: {{vm.post.author.email}}</p>
               <p class="text-right"><a><small>View {{vm.post.author.name}}'s posts >></small></a></p>
