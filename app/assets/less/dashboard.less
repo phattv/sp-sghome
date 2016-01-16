@@ -1,7 +1,7 @@
 .dashboard {
   .dashboard-header {
     background-image: url('/app/assets/img/search-box-background-image.jpg');
-    height: 700px;
+    height: 850px;
 
     .content {
       color: @white;
@@ -106,12 +106,33 @@
         }
 
         .content {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          text-align: center;
-          .padding(15px);
+          .price {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            text-align: right;
+            color: @red;
+            .padding(5px, 10px);
+            font-weight: bold;
+
+            span {
+              background: fade(@white, 30);
+              padding: 3px;
+              display: initial;
+              font-style: italic;
+              font-size: 0.75rem !important;
+            }
+          }
+
+          .title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            .padding(15px);
+          }
 
           span {
             display: block;

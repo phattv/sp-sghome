@@ -73,7 +73,7 @@
 }
 .dashboard .dashboard-header {
   background-image: url('/app/assets/img/search-box-background-image.jpg');
-  height: 700px;
+  height: 850px;
 }
 .dashboard .dashboard-header .content {
   color: #fff;
@@ -153,7 +153,24 @@
 .dashboard .for-rent .row .post .background img {
   width: 100%;
 }
-.dashboard .for-rent .row .post .content {
+.dashboard .for-rent .row .post .content .price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: right;
+  color: #d92228;
+  padding: 5px 10px !important;
+  font-weight: bold;
+}
+.dashboard .for-rent .row .post .content .price span {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 3px;
+  display: initial;
+  font-style: italic;
+  font-size: 0.75rem !important;
+}
+.dashboard .for-rent .row .post .content .title {
   position: absolute;
   bottom: 0;
   left: 0;
