@@ -1,15 +1,25 @@
+.anchor-logo {
+  padding: 5px 15px !important;
+}
+.anchor-logo img {
+  height: 40px;
+}
 .wrapper {
   min-height: 100%;
   height: 100%;
 }
 .wrapper .sghome-header {
   height: 50px;
+  background: #eee;
 }
 .wrapper .sghome-header a {
   text-transform: uppercase;
   font-size: 14px;
 }
 .wrapper .sghome-header a:hover {
+  border-bottom: 4px solid #d92228 !important;
+}
+.wrapper .sghome-header li.active {
   border-bottom: 4px solid #d92228 !important;
 }
 .sghome-footer {
@@ -21,8 +31,10 @@
 .sghome-footer a {
   color: #fff;
 }
-.sghome-footer a:hover,
-.sghome-footer a .active {
+.sghome-footer a:hover {
+  border-bottom: 4px solid #d92228 !important;
+}
+.sghome-footer li.active {
   border-bottom: 4px solid #d92228 !important;
 }
 .sghome-footer small {
